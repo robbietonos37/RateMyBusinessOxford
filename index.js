@@ -7,3 +7,9 @@ const loginError = function () {
     wrongEntry.textContent = 'Error Error'
 
 }
+
+let apartment = {
+    title: '',
+    averageRating: 0,
+    numberOfRatings: 0
+}
