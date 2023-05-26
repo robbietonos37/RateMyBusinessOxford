@@ -24,8 +24,9 @@ document.querySelector('#new-rating').addEventListener('submit', function (e) {
         ratingNumber: ratingNumberValue,
         reviewText: ratingTextBody
     })
-    //e.target.elements.text.value = ''
 
     saveRatings(ratings)
+
+    this.reset()
 
 })
