@@ -1,12 +1,7 @@
+document.querySelector('#rating-number').addEventListener('keypress', (e) => {
+    e.preventDefault()
 
-
-const loginError = function () {
-
-    let wrongEntry = document.querySelector('#errorMessage')
-
-    wrongEntry.textContent = 'Error Error'
-
-}
+})
 
 let ratings = [{
     ratingNumber: 0,
