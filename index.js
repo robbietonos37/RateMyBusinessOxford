@@ -1,3 +1,5 @@
+const reviewForm = document.querySelector('#new-rating')
+
 document.querySelector('#rating-number').addEventListener('keypress', (e) => {
     e.preventDefault()
 
@@ -9,19 +11,23 @@ let ratings = [{
 }
 ]
 
-document.querySelector('#new-rating').addEventListener('submit', function (e) {
+reviewForm.addEventListener('submit', (e) => {
     e.preventDefault()
     let ratingNumberValue = document.querySelector('#rating-number').value
     let ratingTextBody = document.querySelector('#review-text').value
-    console.log(ratingNumberValue)
-    console.log('what is going on')
+    const id = uuidv4()
     ratings.push({
+        id: id,
         ratingNumber: ratingNumberValue,
         reviewText: ratingTextBody
     })
-
     saveRatings(ratings)
 
-    this.reset()
+    reviewForm.reset()
+})
+
+/*
+document.querySelector('#view-ratings').addEventListener('click', (e) => {
 
 })
+*/
