@@ -16,3 +16,14 @@ h2 {
     align-items: center;
     gap: 15px;
 }
+
+body {
+    background-image: url('oxford-ms.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+button:hover {
+    background-color: #ebebeb;
+}
