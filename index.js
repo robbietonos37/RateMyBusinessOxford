@@ -5,11 +5,7 @@ document.querySelector('#rating-number').addEventListener('keypress', (e) => {
 
 })
 
-let ratings = [{
-    ratingNumber: 0,
-    reviewText: ''
-}
-]
+const ratings = getSavedRatings()
 
 reviewForm.addEventListener('submit', (e) => {
     e.preventDefault()
