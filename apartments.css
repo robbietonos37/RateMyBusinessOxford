@@ -1,0 +1,8 @@
+.apt {
+    width: 300px;
+    height: 200px;
+}
+
+.navbutton:hover {
+    background-color: blue;
+}
