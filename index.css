@@ -27,3 +27,7 @@ body {
 button:hover {
     background-color: #ebebeb;
 }
+
+#sign-in:hover {
+    background-color: green;
+}
