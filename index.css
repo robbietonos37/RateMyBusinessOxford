@@ -4,6 +4,17 @@ h2 {
     margin-bottom: 25px;
 }
 
+.main-nav {
+    margin-top: 15px;
+    display: flex;
+    list-style-type: none;
+}
+
+#to-signin {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
 #actualContainer {
     display: flex;
     flex-direction: column;
